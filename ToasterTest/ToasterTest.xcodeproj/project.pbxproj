@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D01B03A1DC11D8C009567DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01B0391DC11D8C009567DC /* AppDelegate.swift */; };
+		5D01B03C1DC11D8C009567DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01B03B1DC11D8C009567DC /* ViewController.swift */; };
+		5D01B0411DC11D8C009567DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D01B0401DC11D8C009567DC /* Assets.xcassets */; };
+		5D01B04F1DC11D8C009567DC /* ToasterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01B04E1DC11D8C009567DC /* ToasterTestTests.swift */; };
+		5D01B05A1DC11D8C009567DC /* ToasterTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01B0591DC11D8C009567DC /* ToasterTestUITests.swift */; };
+		5D01B0681DC11D99009567DC /* Toaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01B0671DC11D99009567DC /* Toaster.swift */; };
+		5D01B06C1DC12141009567DC /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01B06B1DC12141009567DC /* Toast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D01B04B1DC11D8C009567DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D01B02E1DC11D8C009567DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D01B0351DC11D8C009567DC;
+			remoteInfo = ToasterTest;
+		};
+		5D01B0561DC11D8C009567DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D01B02E1DC11D8C009567DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D01B0351DC11D8C009567DC;
+			remoteInfo = ToasterTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D01B0361DC11D8C009567DC /* ToasterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToasterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D01B0391DC11D8C009567DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D01B03B1DC11D8C009567DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D01B0401DC11D8C009567DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D01B0451DC11D8C009567DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D01B04A1DC11D8C009567DC /* ToasterTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToasterTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D01B04E1DC11D8C009567DC /* ToasterTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToasterTestTests.swift; sourceTree = "<group>"; };
+		5D01B0501DC11D8C009567DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D01B0551DC11D8C009567DC /* ToasterTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToasterTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D01B0591DC11D8C009567DC /* ToasterTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToasterTestUITests.swift; sourceTree = "<group>"; };
+		5D01B05B1DC11D8C009567DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D01B0671DC11D99009567DC /* Toaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toaster.swift; sourceTree = "<group>"; };
+		5D01B06B1DC12141009567DC /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D01B0331DC11D8C009567DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D01B0471DC11D8C009567DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D01B0521DC11D8C009567DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D01B02D1DC11D8C009567DC = {
+			isa = PBXGroup;
+			children = (
+				5D01B0381DC11D8C009567DC /* ToasterTest */,
+				5D01B04D1DC11D8C009567DC /* ToasterTestTests */,
+				5D01B0581DC11D8C009567DC /* ToasterTestUITests */,
+				5D01B0371DC11D8C009567DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D01B0371DC11D8C009567DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D01B0361DC11D8C009567DC /* ToasterTest.app */,
+				5D01B04A1DC11D8C009567DC /* ToasterTestTests.xctest */,
+				5D01B0551DC11D8C009567DC /* ToasterTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D01B0381DC11D8C009567DC /* ToasterTest */ = {
+			isa = PBXGroup;
+			children = (
+				5D01B0391DC11D8C009567DC /* AppDelegate.swift */,
+				5D01B03B1DC11D8C009567DC /* ViewController.swift */,
+				5D01B0401DC11D8C009567DC /* Assets.xcassets */,
+				5D01B0451DC11D8C009567DC /* Info.plist */,
+				5D01B0671DC11D99009567DC /* Toaster.swift */,
+				5D01B06B1DC12141009567DC /* Toast.swift */,
+			);
+			path = ToasterTest;
+			sourceTree = "<group>";
+		};
+		5D01B04D1DC11D8C009567DC /* ToasterTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D01B04E1DC11D8C009567DC /* ToasterTestTests.swift */,
+				5D01B0501DC11D8C009567DC /* Info.plist */,
+			);
+			path = ToasterTestTests;
+			sourceTree = "<group>";
+		};
+		5D01B0581DC11D8C009567DC /* ToasterTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D01B0591DC11D8C009567DC /* ToasterTestUITests.swift */,
+				5D01B05B1DC11D8C009567DC /* Info.plist */,
+			);
+			path = ToasterTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D01B0351DC11D8C009567DC /* ToasterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D01B05E1DC11D8C009567DC /* Build configuration list for PBXNativeTarget "ToasterTest" */;
+			buildPhases = (
+				5D01B0321DC11D8C009567DC /* Sources */,
+				5D01B0331DC11D8C009567DC /* Frameworks */,
+				5D01B0341DC11D8C009567DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToasterTest;
+			productName = ToasterTest;
+			productReference = 5D01B0361DC11D8C009567DC /* ToasterTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D01B0491DC11D8C009567DC /* ToasterTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D01B0611DC11D8C009567DC /* Build configuration list for PBXNativeTarget "ToasterTestTests" */;
+			buildPhases = (
+				5D01B0461DC11D8C009567DC /* Sources */,
+				5D01B0471DC11D8C009567DC /* Frameworks */,
+				5D01B0481DC11D8C009567DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D01B04C1DC11D8C009567DC /* PBXTargetDependency */,
+			);
+			name = ToasterTestTests;
+			productName = ToasterTestTests;
+			productReference = 5D01B04A1DC11D8C009567DC /* ToasterTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D01B0541DC11D8C009567DC /* ToasterTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D01B0641DC11D8C009567DC /* Build configuration list for PBXNativeTarget "ToasterTestUITests" */;
+			buildPhases = (
+				5D01B0511DC11D8C009567DC /* Sources */,
+				5D01B0521DC11D8C009567DC /* Frameworks */,
+				5D01B0531DC11D8C009567DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D01B0571DC11D8C009567DC /* PBXTargetDependency */,
+			);
+			name = ToasterTestUITests;
+			productName = ToasterTestUITests;
+			productReference = 5D01B0551DC11D8C009567DC /* ToasterTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D01B02E1DC11D8C009567DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jackie Meggesto";
+				TargetAttributes = {
+					5D01B0351DC11D8C009567DC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SR48DEKU9K;
+						ProvisioningStyle = Automatic;
+					};
+					5D01B0491DC11D8C009567DC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SR48DEKU9K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D01B0351DC11D8C009567DC;
+					};
+					5D01B0541DC11D8C009567DC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SR48DEKU9K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D01B0351DC11D8C009567DC;
+					};
+				};
+			};
+			buildConfigurationList = 5D01B0311DC11D8C009567DC /* Build configuration list for PBXProject "ToasterTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D01B02D1DC11D8C009567DC;
+			productRefGroup = 5D01B0371DC11D8C009567DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D01B0351DC11D8C009567DC /* ToasterTest */,
+				5D01B0491DC11D8C009567DC /* ToasterTestTests */,
+				5D01B0541DC11D8C009567DC /* ToasterTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D01B0341DC11D8C009567DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D01B0411DC11D8C009567DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D01B0481DC11D8C009567DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D01B0531DC11D8C009567DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D01B0321DC11D8C009567DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D01B03C1DC11D8C009567DC /* ViewController.swift in Sources */,
+				5D01B06C1DC12141009567DC /* Toast.swift in Sources */,
+				5D01B03A1DC11D8C009567DC /* AppDelegate.swift in Sources */,
+				5D01B0681DC11D99009567DC /* Toaster.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D01B0461DC11D8C009567DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D01B04F1DC11D8C009567DC /* ToasterTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D01B0511DC11D8C009567DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D01B05A1DC11D8C009567DC /* ToasterTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D01B04C1DC11D8C009567DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D01B0351DC11D8C009567DC /* ToasterTest */;
+			targetProxy = 5D01B04B1DC11D8C009567DC /* PBXContainerItemProxy */;
+		};
+		5D01B0571DC11D8C009567DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D01B0351DC11D8C009567DC /* ToasterTest */;
+			targetProxy = 5D01B0561DC11D8C009567DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D01B05C1DC11D8C009567DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D01B05D1DC11D8C009567DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D01B05F1DC11D8C009567DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SR48DEKU9K;
+				INFOPLIST_FILE = ToasterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meggesto.ToasterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D01B0601DC11D8C009567DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SR48DEKU9K;
+				INFOPLIST_FILE = ToasterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meggesto.ToasterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5D01B0621DC11D8C009567DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SR48DEKU9K;
+				INFOPLIST_FILE = ToasterTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meggesto.ToasterTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToasterTest.app/ToasterTest";
+			};
+			name = Debug;
+		};
+		5D01B0631DC11D8C009567DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SR48DEKU9K;
+				INFOPLIST_FILE = ToasterTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meggesto.ToasterTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToasterTest.app/ToasterTest";
+			};
+			name = Release;
+		};
+		5D01B0651DC11D8C009567DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SR48DEKU9K;
+				INFOPLIST_FILE = ToasterTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meggesto.ToasterTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ToasterTest;
+			};
+			name = Debug;
+		};
+		5D01B0661DC11D8C009567DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SR48DEKU9K;
+				INFOPLIST_FILE = ToasterTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meggesto.ToasterTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ToasterTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D01B0311DC11D8C009567DC /* Build configuration list for PBXProject "ToasterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D01B05C1DC11D8C009567DC /* Debug */,
+				5D01B05D1DC11D8C009567DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D01B05E1DC11D8C009567DC /* Build configuration list for PBXNativeTarget "ToasterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D01B05F1DC11D8C009567DC /* Debug */,
+				5D01B0601DC11D8C009567DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D01B0611DC11D8C009567DC /* Build configuration list for PBXNativeTarget "ToasterTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D01B0621DC11D8C009567DC /* Debug */,
+				5D01B0631DC11D8C009567DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D01B0641DC11D8C009567DC /* Build configuration list for PBXNativeTarget "ToasterTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D01B0651DC11D8C009567DC /* Debug */,
+				5D01B0661DC11D8C009567DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D01B02E1DC11D8C009567DC /* Project object */;
+}
